@@ -1,0 +1,7 @@
+Internet
+   ↓
+Application Load Balancer (Public Subnets)
+   ↓
+EC2 Instances (Private Subnets)
+   ↓
+NAT Gateway → Internet (Outbound only)
