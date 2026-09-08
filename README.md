@@ -35,17 +35,6 @@ This project demonstrates how to deploy a highly available web application using
 - ALB health check path: /
 - Success code: 200
 
-## Files
-- user-data.sh → Bootstraps EC2 instance
-- README.md → Project documentation
-
 ## Outcome
 - Target group shows healthy instances
 - ALB DNS URL successfully serves web content
-
-## Interview Value
-This project demonstrates:
-- Secure networking design
-- High availability
-- Load balancing
-- Auto scaling
